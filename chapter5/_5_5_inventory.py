@@ -9,10 +9,12 @@ def displayInventor(inventory):
 		totalItems += j;
 	print("物品总数:" + str(totalItems));
 
-# 添加掉落物到物品栏
-# 遍历loot
-# loot的值在 inventory 中没有的，inventory添加该key
-# loot的值在 inventory 中已有的，inventory对应key的value +1
+''' 
+添加掉落物到物品栏
+遍历loot
+loot的值在 inventory 中没有的，inventory添加该key
+loot的值在 inventory 中已有的，inventory对应key的value +1
+'''
 def addToInventory(inventory, loot):
 	for items in loot:
 		inventory.setdefault(items, 0);
