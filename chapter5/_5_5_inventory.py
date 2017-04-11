@@ -1,3 +1,4 @@
+#! python3
 # inventory.py
 
 # 显示物品栏
@@ -21,7 +22,6 @@ def addToInventory(inventory, loot):
 		inventory[items] += 1;
 	return inventory;
 
-
 # 当前物品栏
 stuff = {
 	'装备': 12,
@@ -37,3 +37,5 @@ dragonLoot = ['金币', '装备', '金币', '徽章', '徽章', '荣誉'];
 stuff = addToInventory(stuff, dragonLoot);
 
 displayInventor(stuff);
+
+input("Press <enter>")

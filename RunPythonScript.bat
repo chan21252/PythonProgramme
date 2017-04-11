@@ -1,0 +1,1 @@
+@py.exe F:\repertories\PythonProgramme\chapter5\_5_5_inventory.py %*
