@@ -1,1 +1,2 @@
-@py.exe F:\repertories\PythonProgramme\chapter5\_5_5_inventory.py %*
+@py.exe F:\repertories\PythonProgramme\chapter6\_6_1_password.py %*
+@pause
