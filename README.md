@@ -6,3 +6,5 @@
 - chapter3 函数
 - chapter4 列表
 - chapter5 字典
+- chapter6 字符串
+- chapter7 模式匹配与正则表达式
