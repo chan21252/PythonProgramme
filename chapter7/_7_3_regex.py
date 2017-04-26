@@ -40,3 +40,17 @@ braceRegex2 = re.compile(r'(ha){0,5}');
 mo7 = braceRegex.search('hahahahahaha');
 
 print(mo7.group());
+
+
+'''
+?	匹配0或1次
+*	匹配0或多次
++	匹配1或多次
+{}	匹配特定次数
+	{n}		匹配n次
+	{n,}	匹配>=n次
+	{,n}	匹配<=n次
+	{n1,n2}	匹配>=n1&&<=n2次
+默认贪心的匹配，即取最长匹配的表达式
+非贪心的匹配{n1,n2}?
+'''
